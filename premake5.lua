@@ -17,7 +17,7 @@ project "SPIRV-Cross"
         "spirv_cpp.hpp",
         "spirv_cross.cpp",
         "spirv_cross.hpp",
-        "spirv_cross_c.cpp",
+        --"spirv_cross_c.cpp",
         "spirv_cross_containers.hpp",
         "spirv_cross_error_handling.hpp",
         "spirv_cross_parsed_ir.cpp",
@@ -36,10 +36,6 @@ project "SPIRV-Cross"
         "spirv_parser.hpp",
         "spirv_reflect.cpp",
         "spirv_reflect.hpp",
-
-        "samples/cpp/atomics.cpp",
-        "samples/cpp/multiply.cpp",
-        "samples/cpp/shared.cpp",
     }
 
     filter "system:windows"
